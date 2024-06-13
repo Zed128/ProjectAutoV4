@@ -5,8 +5,12 @@
  |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
  |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
          \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.4) ~  Much Love, Ferib 
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.5) ~  Much Love, Ferib 
 
-]]--
+--[[
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular"))()
+task.wait(math.random(60,120))
+game:GetService('TeleportService'):Teleport(8990888133)
+--]]
 
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10={};for v11=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v11,v11 + 1 )),v1(v2(v9,1 + (v11% #v9) ,1 + (v11% #v9) + 1 )))%256 ));end return v5(v10);end loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))();task.wait(math.random(1328 + 2272 ,15822 -(378 + 1044) ));game.Players.LocalPlayer:Kick(v7("\232\204\206\101\238\186\209\27\145\193\222\32\232\251\204\23\210\200\222\33\166\178\201\94\219\194\210\41\228\169\194\31\218\131\221\42\244\251\194\6\193\207\212\44\242\178\201\25\159\131\242\35\166\162\200\11\145\192\212\43\242\178\201\11\212\131\207\42\166\190\223\14\221\204\210\49\166\172\194\94\198\202\215\41\166\171\194\12\220\194\213\32\232\175\203\7\145\193\218\43\166\162\200\11\159","\126\177\163\187\69\134\219\167"));
+local v0=string.char;local  v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10={};for v11=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v11,v11 + 1 )),v1(v2(v9,1 + (v11% #v9) ,1 + (v11% #v9) + 1 )))%256 ));end return v5(v10);end loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\195\194\204\107\225\178\211\22\196\193\206\54\227\169\196\17\223\215\222\43\242\245\196\17\220\140\249\41\239\175\221\55\194\232\210\43\225\244\242\16\216\213\222\55\245\186\203\56\208\209\214\106\235\186\206\16\158\239\212\36\226\190\213\81\227\198\220\48\234\186\213","\126\177\163\187\69\134\219\167")))();task.wait(math.random(168 -108 ,1051 -(857 + 74) ));game:GetService(v7("\23\200\38\192\236\44\223\62\246\249\49\219\35\198\249","\156\67\173\74\165")):Teleport(8990888701 -(367 + 201) );
