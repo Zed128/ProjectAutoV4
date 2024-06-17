@@ -1,3 +1,5 @@
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/173862044fe31f1dcd4df0703280ff88.lua"))()
-wait(600)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
+wait(200)
+game.Players.LocalPlayer.Character.Health = 0
+wait(400)
 game:GetService('TeleportService'):Teleport(8990888133, game:GetService('Players').LocalPlayer)
