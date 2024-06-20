@@ -1,6 +1,6 @@
 spawn(function()
     task.wait(600)
-    for i,v in pairs(game.Workspace:GetChildren())
+    for i,v in pairs(game.Workspace:GetChildren()) do
         v:Destroy()
     end
 end)
