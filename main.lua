@@ -1,3 +1,4 @@
+lost
 spawn(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
 end)
