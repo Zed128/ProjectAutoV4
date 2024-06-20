@@ -1,8 +1,6 @@
 spawn(function()
     task.wait(600)
-    for i,v in pairs(game.Workspace:GetChildren()) do
-        v:Destroy()
-    end
+    game:Shutdown()
 end)
 spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
