@@ -7,7 +7,7 @@ spawn(function()
     game:Shutdown()
 end)
 spawn(function()
-    while task.wait(math.random(30,60)) do
+    while task.wait(math.random(20,40)) do
         game.Players.LocalPlayer.Character.Humanoid.Health = 0
     end
 end)
