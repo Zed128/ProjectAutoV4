@@ -8,7 +8,7 @@ spawn(function()
     game:Shutdown()
 end)
 spawn(function()
-    while task.wait(20) do
+    while task.wait(10) do
         game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
     end
 end)
