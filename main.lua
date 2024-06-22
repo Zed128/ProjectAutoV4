@@ -13,7 +13,7 @@ spawn(function()
     end
 end)
 spawn(function()
-    while task.wait(math.random(20,30)) do
+    while task.wait(math.random(10,20)) do
         game.Players.LocalPlayer.Character.Humanoid.Health = 0
     end
 end)
